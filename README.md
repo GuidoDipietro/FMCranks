@@ -2,7 +2,7 @@
 Raw text input to nicely formatted XLSX file
 ------------------------------------------------------------------------------------------
 
-#### Requisites: Python 2 or 3, Excel
+#### Requisites: Python 2 or 3, Excel, xlsxwriter and excel2img (installed via .bat file)
 
 ## How it works:
 1. 	### Copy as plain text every comment from the "RESULTS:" section of the post.
