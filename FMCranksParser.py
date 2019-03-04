@@ -5,7 +5,9 @@ Created on Mon Feb 18 11:49:13 2019
 @author: dipie
 """
 
-import xlsxwriter, operator
+import xlsxwriter, operator, time
+
+start = time.time()
 
 workbook = xlsxwriter.Workbook('FMCranks.xlsx')
 worksheet = workbook.add_worksheet()
@@ -104,3 +106,5 @@ for item, a0,a1,a2,mean,_ in (weeklyresults):
 workbook.close()
 file.close()
 targetfile.close()
+print("\n"+str(time.time() - start) + " seconds elapsed.\nEnjoy your XLSX file ;D")
+input()
