@@ -3,7 +3,7 @@ Raw text input to nicely formatted XLSX file
 ###
 ------------------------------------------------------------------------------------------
 
-Requisites: Python 2 or 3, Excel, notepad (lol)
+Requisites: Python 2 or 3, Excel
 
 How it works:
 1) 	Copy as plain text every comment from the "RESULTS:" section of the post.
@@ -20,7 +20,7 @@ How it works:
 2) 	Run "runme.bat"
 		*IMPORTANT* edit it and change the path to the folder you're at.
 		It will do your work and write the results neatly to the file "FMCranks.xlsx"
-	`	(library xlsxwriter is downloaded by this file, if you don't have it)
+		(library xlsxwriter is downloaded by this file, if you don't have it)
 
 3) 	Open the file "FMCranks.xlsx" with Excel or rather upload to Google Spreadsheets
 		Enjoy.
