@@ -110,6 +110,6 @@ workbook.close()
 file.close()
 targetfile.close()
 
-excel2img.export_img("FMCranks.xlsx", "FMCranks.bmp", "", "Sheet1!A2:E{}".format(row))
+excel2img.export_img("FMCranks.xlsx", "FMCranks.png", "", "Sheet1!A2:E{}".format(row))
 
-print("\n"+str(time.time() - start) + " seconds elapsed.\nEnjoy your XLSX file ;D")
+print("\n"+str(time.time() - start) + " seconds elapsed.\nEnjoy ;D")
