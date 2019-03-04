@@ -17,7 +17,7 @@ Raw text input to nicely formatted XLSX file
 		- Guido Dipietro 20,23,21 World Record!=
 	
 	That should be okay
-	### Data needed in each competitor line to function properly:
+	#### Data needed in each competitor line to function properly:
 	- Full name + Result1 + Result2 + Result3 + "=" sign
 	- Only the name and the 6 digits comprising the 3 results are taken into account.
 	- Every other character is ignored, such as commas, periods, etc.
