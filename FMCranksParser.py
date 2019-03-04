@@ -97,7 +97,8 @@ for item, a0,a1,a2,mean,_ in (weeklyresults):
     worksheet.write(row, col + 2, a1, formato1)
     worksheet.write(row, col + 3, a2, formato2)
     worksheet.write(row, col + 4, mean, formato3)
-    worksheet.write(row, col + 5, "=MIN(B{}:D{})".format(row+1,row+1))
+    #worksheet.write(row, col + 5, "=MIN(B{}:D{})".format(row+1,row+1))
+    #best solve not needed because the sorting is handled in Python directly
     row += 1
 
 workbook.close()
