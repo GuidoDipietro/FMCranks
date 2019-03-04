@@ -22,8 +22,8 @@ How it works:
 		It will do your work and write the results neatly to the file "FMCranks.xlsx"
 		(library xlsxwriter is downloaded by this file, if you don't have it)
 
-3) 	Open the file "FMCranks.xlsx" with Excel or rather upload to Google Spreadsheets
-		Enjoy.
+3) 	Open the file "FMCranks.xlsx" for the Excel or "FMCranks.bmp" for the image.
+		Enjoy!
 
 Any questions PM me to my FB (Guido Dipietro) or email dipietroguido@gmail.com
 If it fails at any point please do contact me.
