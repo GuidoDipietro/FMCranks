@@ -5,7 +5,7 @@ Created on Mon Feb 18 11:49:13 2019
 @author: dipie
 """
 
-import xlsxwriter, operator, time
+import xlsxwriter, operator, time, excel2img
 
 start = time.time()
 
@@ -102,9 +102,14 @@ for item, a0,a1,a2,mean,_ in (weeklyresults):
     #worksheet.write(row, col + 5, "=MIN(B{}:D{})".format(row+1,row+1))
     #best solve not needed because the sorting is handled in Python directly
     row += 1
+    
+worksheet.set_column(0, 0, 20)
+worksheet.set_column(1, 4, 5)
 
 workbook.close()
 file.close()
 targetfile.close()
+
+excel2img.export_img("FMCranks.xlsx", "FMCranks.bmp", "", "Sheet1!A2:E{}".format(row))
+
 print("\n"+str(time.time() - start) + " seconds elapsed.\nEnjoy your XLSX file ;D")
-input()
