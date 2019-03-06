@@ -52,6 +52,11 @@ DNSormat = workbook.add_format({'font_color': '#0099FF'})
                                 
 weeklyresults = list(sorted(weeklyresults, key=operator.itemgetter(4,5)))
 
+#WOAJ mean
+woajindiv = [min(x) for x in podiums]
+woaj = ["woaj"] + woajindiv + [round(sum(woajindiv)/3,2)] + [min(woajindiv)]
+weeklyresults = weeklyresults + [woaj]
+
 worksheet.write(0,0,"")
 
 for item, a0,a1,a2,mean,_ in (weeklyresults):
