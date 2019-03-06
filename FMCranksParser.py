@@ -16,6 +16,7 @@ weeklyresults = []
 
 file = open("FMCranks.txt", "r")
 targetfile = open("parsedFMCranks.txt", 'r+')
+targetfile.truncate(0) #Making sure IT'S EMPTYYY
 
 for line in file:
     if "=" in line:
