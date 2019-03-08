@@ -5,13 +5,6 @@ Created on Fri Mar  8 19:34:45 2019
 @author: dipie
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 18 11:49:13 2019
-
-@author: dipie
-"""
-
 import xlsxwriter, time, excel2img
 from operator import itemgetter
 from itertools import groupby
