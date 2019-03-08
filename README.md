@@ -6,7 +6,7 @@ Raw text input to nicely formatted XLSX file
 
 ## How it works:
 1. 	### Copy as plain text every comment from the "RESULTS:" section of the post.
-	If you want to see how it should look like, just open the file as it is now.
+	If you want to see how it should look like, just open the file FMCranks.txt as it is now.
 	You'd want to delete everything before you paste the new data, of course.
 
 	#### *NOTE*:
