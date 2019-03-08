@@ -21,6 +21,7 @@ Raw text input to nicely formatted XLSX file
 	- Full name + Result1 + Result2 + Result3 + "=" sign
 	- Only the name and the 6 digits comprising the 3 results are taken into account.
 	- Every other character is ignored, such as commas, periods, etc.
+	- (unless it's "DNF" or "DNS", that is handled)
 
 2.	### Run "runme.bat"
 	#### *IMPORTANT*:
