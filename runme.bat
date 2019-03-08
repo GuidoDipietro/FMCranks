@@ -1,4 +1,4 @@
-SET PATH=%PATH%;C:\Users\dipie\Desktop\WinPython\settings\Workspace Database
+SET mypath=%~dp0
 pip install xlsx
 pip install excel2img
 python FMCranksParserV2.py
