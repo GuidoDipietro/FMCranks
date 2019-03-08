@@ -24,8 +24,6 @@ Raw text input to nicely formatted XLSX file
 	- (unless it's "DNF" or "DNS", that is handled)
 
 2.	### Run "runme.bat"
-	#### *IMPORTANT*:
-	edit it and change the path to the folder you're at.
 	It will do your work and write the results neatly to the file "FMCranks.xlsx"
 	(library xlsxwriter is downloaded by this file, if you don't have it)
 
