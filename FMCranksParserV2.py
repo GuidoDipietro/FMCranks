@@ -13,14 +13,12 @@ from itertools import groupby
 start = time.time()
 
 #This file has the raw data
-file = open("FMCranks.txt", "r")
-
-#Create an array with partially clean data
-parsedresults = []
-for line in file:
-    if "=" in line:
-        parsedresults.append(line)
-file.close()
+with open("FMCranks.txt", "r", encoding="unicode_escape") as file:
+    #Create an array with partially clean data
+    parsedresults = []
+    for line in file:
+        if "=" in line:
+            parsedresults.append(line)
 
 #Generates the weeklyresult array (processed results)
 #Each item is [name, a0, a1, a2, mean, best]
