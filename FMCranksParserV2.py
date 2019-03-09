@@ -30,14 +30,19 @@ for line in parsedresults:
     #Will be changed back later
     line = line.replace("DNF","99")
     line = line.replace("DNS","98")
+    #Gets results
     numbers = ''.join([x for x in line if x.isdigit()])
     numbers = numbers[0:6]
     numbers = [int(numbers[i:i+2]) for i in range(0, len(numbers), 2)]
     numbers = numbers + [round(sum(numbers)/3,2)]
-    name = line.split()[0:3]
+    #Gets name
+    name = line.split()[0:5]
+    name = [x for x in name if "=" not in x]
     name = [x for x in name if not any(char.isdigit() for char in x) and "DNF" not in x]
     name = " ".join(name)
+    #Debug print
     print(name,numbers)
+    #Finally concatenate everything
     result = [name] + numbers + [min(numbers)]
     weeklyresults.append(result)
 
