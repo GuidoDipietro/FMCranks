@@ -127,7 +127,7 @@ worksheet.set_column(5, 5, 5)
 workbook.close()
 
 #Say cheese! Taking screenshot of XLSX range
-excel2img.export_img("FMCranks.xlsx", "FMCranks.png", "", "Sheet1!A2:F{}".format(row))
+excel2img.export_img("FMCranks.xlsx", "FMCranks2.png", "", "Sheet1!A2:F{}".format(row))
 
 #Finished!
 print(str(time.time() - start) + " seconds elapsed.\nEnjoy ;D")
