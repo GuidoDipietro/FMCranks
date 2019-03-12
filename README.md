@@ -1,5 +1,10 @@
 # FMCranks
 Raw text input to nicely formatted XLSX file
+
+------------------------------------------------------------------------------------------
+
+![Example Image not loaded correctly...](https://github.com/GuidoDipietro/FMCranks/blob/master/CranksExample.png?raw=true)
+
 ------------------------------------------------------------------------------------------
 
 #### Requisites: Python 2 or 3, Excel, xlsxwriter and excel2img (installed via .bat file)
