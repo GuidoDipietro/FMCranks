@@ -2,6 +2,8 @@
 Raw text input to nicely formatted XLSX file
 
 ## Two versions now!
+# CamposImage to generate an image without XLSX file,
+# also text size adapts to name length.
 
 ------------------------------------------------------------------------------------------
 
