@@ -1,5 +1,7 @@
 # temporary files
 CamposImage.png
+CranksExample.png
+FMCranks.png
 *.pyc
 __pycache__
 
