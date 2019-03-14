@@ -42,7 +42,7 @@ def list_2_image(names, l):
 		assert len(x) == cols > 0, "At least one of the lines has different column numbers."
 	
 	data = pd.DataFrame({})
-	data["Names"] = names
+	data["names"] = names
 	for i in range(cols):
 		data["t%s"%(i+1)] = [x[i] for x in l]
 	data["avg"] = [avg([a, b, c]) for a, b, c in zip(data["t1"], data["t2"], data["t3"])]
@@ -102,7 +102,7 @@ def list_2_image(names, l):
 	
 	# draw names
 	for i in range(lines):
-		temp = str(names[i])
+		temp = (data["names"])[i]
 		
 		temp_size = names_font_size
 		fnt = ImageFont.truetype(names_font, temp_size)
