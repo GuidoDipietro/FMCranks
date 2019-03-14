@@ -1,11 +1,15 @@
 # FMCranks
 Raw text input to nicely formatted XLSX file
+Two versions!
 
 ------------------------------------------------------------------------------------------
 
 ![Example Image not loaded correctly...](https://github.com/GuidoDipietro/FMCranks/blob/master/CranksExample.png?raw=true)
+![Example Image not loaded correctly...](https://github.com/GuidoDipietro/FMCranks/blob/master/CamposImageExample.png?raw=true)
 
 ------------------------------------------------------------------------------------------
+
+##### FMCranks (XLSX version)
 
 #### Requisites: Python 2 or 3, Excel, xlsxwriter and excel2img (installed via .bat file)
 
@@ -34,6 +38,17 @@ Raw text input to nicely formatted XLSX file
 
 3. 	### Open the file "FMCranks.xlsx" for the Excel or "FMCranks.bmp" for the image.
 	Enjoy!
+	
+-----------------------------------------------------------------------------------
+
+##### FMCranks (Alexandre Campos version)
+
+#### Requisites: pandas, python 2 or 3, PIL
+
+## How it works:
+1.	Follow step 1 in FMCranks XLSX version
+2.	Run "runmeCampos.bat"
+3.	Open CamposImage.png. No XLSX file is used!
 
 Any questions PM me to my FB (Guido Dipietro) or email dipietroguido@gmail.com
 If it fails at any point please do contact me.
