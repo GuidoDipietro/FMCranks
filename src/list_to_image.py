@@ -9,9 +9,9 @@ from dummy_data import random_scores, random_names
 WHITE =	255, 255, 255
 BLACK =	  0,   0,   0
 
-WOAJ1_COLOR	= 255, 255,  51 
-WOAJ2_COLOR	= 255,  51, 255
-WOAJ3_COLOR	=  51, 255, 255
+WOAJ1_COLOR	= 255, 204,   0
+WOAJ2_COLOR	= 128, 128, 128
+WOAJ3_COLOR	= 179,  60,   0
 WOAJ_COLOR	= [WOAJ1_COLOR, WOAJ2_COLOR, WOAJ3_COLOR]
 
 header_font = "fonts/FreeMono.ttf" 
