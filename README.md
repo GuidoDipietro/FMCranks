@@ -2,8 +2,8 @@
 Raw text input to nicely formatted XLSX file
 
 ## Two versions now!
-# CamposImage to generate an image without XLSX file,
-# also text size adapts to name length.
+#### CamposImage to generate an image without XLSX file,
+#### also text size adapts to name length.
 
 ------------------------------------------------------------------------------------------
 
@@ -12,11 +12,11 @@ Raw text input to nicely formatted XLSX file
 
 ------------------------------------------------------------------------------------------
 
-##### FMCranks (XLSX version)
+# FMCranks (XLSX version)
 
-#### Requisites: Python 2 or 3, Excel, xlsxwriter and excel2img (installed via .bat file)
+### Requisites: Python 2 or 3, Excel, xlsxwriter and excel2img (installed via .bat file)
 
-## How it works:
+#### How it works:
 1. 	### Copy as plain text every comment from the "RESULTS:" section of the post.
 	If you want to see how it should look like, just open the file FMCranks.txt as it is now.
 	You'd want to delete everything before you paste the new data, of course.
@@ -44,11 +44,11 @@ Raw text input to nicely formatted XLSX file
 	
 -----------------------------------------------------------------------------------
 
-##### FMCranks (Alexandre Campos version)
+# FMCranks (Alexandre Campos version)
 
-#### Requisites: numpy, pandas, python 2 or 3, Pillow (installed via .bat file)
+### Requisites: numpy, pandas, python 2 or 3, Pillow (installed via .bat file)
 
-## How it works:
+#### How it works:
 1.	Follow step 1 in FMCranks XLSX version
 2.	Run "runmeCampos.bat"
 3.	Open CamposImage.png. No XLSX file is used!
