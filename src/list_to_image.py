@@ -176,13 +176,3 @@ def list_2_image(names, l):
 		draw.line([widths[i]+sum(widths[:i]), 0, widths[i]+sum(widths[:i]), height], fill = BLACK)
 	
 	return img
-
-def main():
-	scores = random_scores()
-	names = random_names()
-	
-	img = list_2_image(names, scores)
-	img.save('image.png')	
-
-main()
-
