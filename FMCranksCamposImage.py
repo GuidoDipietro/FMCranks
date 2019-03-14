@@ -13,6 +13,6 @@ def main():
     names = getNames(cleanData("FMCranks.txt"))
     
     img = list_2_image(names, scores)
-    img.save('image.png')    
+    img.save('CamposImage.png')    
 
 main()
