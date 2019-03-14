@@ -44,7 +44,7 @@ Raw text input to nicely formatted XLSX file
 
 ##### FMCranks (Alexandre Campos version)
 
-#### Requisites: pandas, python 2 or 3, PIL
+#### Requisites: numpy, pandas, python 2 or 3, Pillow (installed via .bat file)
 
 ## How it works:
 1.	Follow step 1 in FMCranks XLSX version
