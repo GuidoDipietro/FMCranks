@@ -15,7 +15,7 @@ def cleanData(filepath):
         parsedresults = []
         for line in file:
             if "=" in line: parsedresults.append(line)
-    data = [x.replace("DNF","99").replace("DNS","98") for x in parsedresults]
+    data = [x.replace("DNF","99").replace("DNS","98").replace("Dnf","99").replace("Dns","98").replace("dnf","99").replace("dns","98") for x in parsedresults]
     return data
 
 def getNumbers(data):
